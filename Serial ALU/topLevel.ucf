@@ -1,0 +1,25 @@
+NET "clk"   LOC = "L15"; 
+NET "clk" PERIOD = 10.0ns HIGH 50%;
+NET "rst" LOC = "T15";
+
+## Tx ##
+#NET "sw<0>" LOC = "A10";
+#NET "sw<1>" LOC = "D14";
+#NET "sw<2>" LOC = "C14";
+#NET "sw<3>" LOC = "P15";
+
+#NET "ready" LOC = "M13";
+
+#NET "tx" LOC = "B16";
+
+## Rx ##
+NET "led<0>" LOC = "U18";
+NET "led<1>" LOC = "M14";
+NET "led<2>" LOC = "N14";
+NET "led<3>" LOC = "L14";
+NET "led<4>" LOC = "M13";
+NET "led<5>" LOC = "D4";
+NET "led<6>" LOC = "P16";
+NET "led<7>" LOC = "N12";
+
+NET "rx" LOC = "A16"; 
